@@ -19,7 +19,7 @@ int main()
 	vector<char> numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 	
 	// used to hold the user's input
-    string user_choice;
+	string user_choice;
 	cout << "Do you want to choose how many letters, symbols, and numbers are in your password? Type y for yes and n for no: ";
 	cin >> user_choice;
 	
