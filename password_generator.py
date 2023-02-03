@@ -47,6 +47,7 @@ if user_choice == "y" or user_choice == "yes" or user_choice == "n" or user_choi
         # user inserts the amount of characters for the password
         num_characters = int(input("How many characters would you like in your password: "))
         
+        # gets a random element from the char_list and pushes the element to password_list
         for char in range(num_characters):
             password_list.append(random.choice(char_list))
     
